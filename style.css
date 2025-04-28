@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    padding: 30px;
+    width: 100%;
+    margin-inline: auto;
+    max-width: 500px;
+
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    border: 1px solid black;
+}
+.input-box{
+    display: flex;
+
+
+}
+#inputTask{
+
+    flex: 1;
+    font-size: 16;
+
+}
+#submitButton{
+    padding-block: 10px;
+    padding-inline: 2rem;
+    flex-shrink: 0;
+    font-weight: bold;
+    background-color: aqua;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.output-box{
+    margin-top: 1rem;
+/* 
+    background-color: cyan;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    margin-top: 1rem; */
+}
+.output-box li{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+
+}
+.first-item{
+  
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.update-button{
+    display: flex;
+    gap: 10px;
+
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.finish-button{
+    padding: 10px;
+    padding-inline: 20px;
+    font-weight: bold;
+    background-color: blueviolet;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+
+}
+.delete-button{
+    padding: 10px;
+    font-weight: bold;
+    padding-inline: 20px;
+    background-color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
